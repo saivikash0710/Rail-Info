@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trains Between Stations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Trains Between Stations</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pnr-status.html">PNR Status</a></li>
+            <li><a href="train-status.html">Train Status</a></li>
+            <li><a href="trains-between.html">Trains Between Stations</a></li>
+        </ul>
+    </nav>
+
+    <div class="form-container">
+        <h2>Find Trains Between Stations</h2>
+        <form>
+            <label for="sourceStation">Source Station Code:</label>
+            <input type="text" id="sourceStation" name="sourceStation" required>
+
+            <label for="destinationStation">Destination Station Code:</label>
+            <input type="text" id="destinationStation" name="destinationStation" required>
+
+            <button type="submit">Find Trains</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
